@@ -1,0 +1,19 @@
+{
+  "header": {
+    "google_login": "Google登入",
+    "send_email": "發送Email",
+    "collapse": "收合"
+  },
+  "google": {
+    "login": "登入Google",
+    "logout": "登出Google",
+    "not_login": "尚未登入",
+    "response": "回傳資訊："
+  },
+  "email": {
+    "name": "姓名",
+    "email": "信箱",
+    "send": "發送郵件",
+    "call": "撥打電話"
+  }
+}

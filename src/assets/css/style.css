@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('~@/assets/font/NotoSansTC-Regular.otf') format('otf');
+}
+
+
+@layer base {
+
+    html {
+        font-size: 80%;
+    }
+
+    body {
+        font-family: "Helvetica", "MyWebFont", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "spHelvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    }
+
+    button, button:focus {
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    span.title-bg {
+        @apply px-2 py-1;
+        font-size: 3.6vw;
+        margin-right: 0.1rem;
+        background-color: #343357;
+    }
+
+    @media (min-width: 640px) {
+        html {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media (min-width: 768px) {
+        html {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        html {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        html {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media (min-width: 1450px) {
+        html {
+            font-size: 1em;
+        }
+    }
+
+    @media (max-width: 768px) {
+        span.title-bg {
+            padding: 0.1rem 0.5rem;
+            font-size: 9vw;
+        }
+    }
+}
