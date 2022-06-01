@@ -3,6 +3,7 @@
     <div class="link-btn"><router-link to="/googleLogin">{{ $t('header.google_login') }}</router-link></div>
     <div class="link-btn"><router-link to="/sendEmail">{{ $t('header.send_email') }}</router-link></div>
     <div class="link-btn"><router-link to="/collapse">{{ $t('header.collapse') }}</router-link></div>
+    <div class="link-btn"><router-link to="/button">{{ $t('header.button') }}</router-link></div>
   </div>
 </template>
 

@@ -29,6 +29,11 @@ const router = new Router({
             path: '/collapse',
             name: 'collapse',
             component: () => import('./views/Collapse/'),
+        },
+        {
+            path: '/button',
+            name: 'button',
+            component: () => import('./views/Button/'),
         }
     ]
 })

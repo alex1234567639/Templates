@@ -2,7 +2,8 @@
   "header": {
     "google_login": "Google登入",
     "send_email": "發送Email",
-    "collapse": "收合"
+    "collapse": "收合",
+    "button": "按鈕"
   },
   "google": {
     "login": "登入Google",
